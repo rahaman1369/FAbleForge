@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Images/background.jpg");
+  background-size: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.gym-heading {
+  text-align: center;
+  margin: 30px;
+  text-shadow: 0 0 12px black;
+}
+
+.template-div {
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.template-card {
+  background-color: rgb(46, 46, 46);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gym-dp {
+  margin: 10px;
+  width: 180px;
+  border-radius: 10px;
+}
+
+.gym-details {
+  margin: 0 12px 0 12px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 180px;
+}
+
+.see-more-btn {
+  margin: 0 24px 0 24px;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+
+}
+
+.grade {
+  color: #259e00;
+}
+
+.bio-para {
+  background-color: rgba(185, 185, 185, 0.116);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+
+.see-more-btn {
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  color: #f09537;
+  text-shadow: 0px 0px 4px rgba(199, 199, 199, 0.596);
+  font-size: 18px;
+  width: 100px;
+  margin: 12px;
+  transition: 0.3s;
+}
+
+.see-more-btn:hover {
+
+  background-color: #525252;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 4px rgba(65, 65, 65, 0.596);
+}

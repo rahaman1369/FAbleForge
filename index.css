@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Images/background.jpg");
+  background-size: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* heading starts */
+
+.welcome-div {
+  text-align: center;
+  width: 100%;
+  padding: 20px 10px 20px 10px;
+  background-color: rgba(0, 0, 0, 0.233);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.411);
+}
+
+.welocome-heading {
+  font-size: 65px;
+  text-shadow: 0 0 100px rgb(0, 0, 0);
+}
+
+.dailyfit-heading {
+  color: #f09537;
+}
+
+.about-heading {
+  font-size: 18px;
+  animation: fadeInAnimation ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition: 0.3s;
+  text-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.about-heading-highlight {
+  color: #ffc183;
+  text-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+
+.log-sign-main-div {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  align-items: center;
+  padding-top: 60px;
+  margin-bottom: 10px;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 10%;
+}
+
+.extradiv {
+  font-size: 38px;
+  margin-left: 100px;
+  text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.562);
+ text-shadow: 0 0 12px black;
+}
+
+
+.btn-log-and-sign {
+  border: none;
+  border-radius: 12px;
+  background-color: #f09537;
+  color: white;
+  height: 55px;
+  width: 165px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.596);
+  margin-top: 80px;
+  margin-right: 100px;
+  transition: 0.3s;
+}
+
+.btn-log-and-sign:hover {
+  background-color: rgb(255, 255, 255);
+  color: #f09537;
+
+  text-shadow: 0px 0px 4px rgba(199, 199, 199, 0.596);
+
+}
